@@ -1,87 +1,170 @@
 <!DOCTYPE html>
-<html lang="us" class="js-focus-visible" data-js-focus-visible=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-       <title>RisingStar</title>
-        
+<html lang="us" class="js-focus-visible" data-js-focus-visible="">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>RisingStar</title>
 
+      <!-- Google Fonts -->
+      <link href="./content/css2" rel="stylesheet" />
 
-<!-- Google Fonts -->
-<link href="./content/css2" rel="stylesheet">
+      <!-- CSS -->
+      <link rel="stylesheet" type="text/css" href="./content/style.css" />
+      <!-- CSS -->
+      <style></style>
 
-<!-- CSS -->
-<link rel="stylesheet" type="text/css" href="./content/style.css">
-<!-- CSS -->
-<style>
+      <!-- FONT AWESOME -->
+      <link rel="stylesheet" type="text/css" href="./content/all.min.css" />
 
-</style>
+      <!-- LIB: JQUERY -->
+      <script src="./content/jquery.min.js"></script>
 
-<!-- FONT AWESOME -->
-<link rel="stylesheet" type="text/css" href="./content/all.min.css">
+      <!-- LIB: POPPER FOR BOOTSTRAP -->
+      <script
+         src="./content/popper.min.js"
+         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+         crossorigin="anonymous"
+      ></script>
 
-<!-- LIB: JQUERY -->
- <script src="./content/jquery.min.js"></script>
+      <!-- LIB: BOOTSTRAP -->
+      <link
+         href="./content/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+         crossorigin="anonymous"
+      />
+      <script
+         src="./content/bootstrap.bundle.min.js"
+         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+         crossorigin="anonymous"
+      ></script>
 
-<!-- LIB: POPPER FOR BOOTSTRAP -->
-<script src="./content/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
-<!-- LIB: BOOTSTRAP -->
-<link href="./content/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<script src="./content/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
-<!-- LIB: BABYLON JS 
+      <!-- LIB: BABYLON JS 
 <script src="https://preview.babylonjs.com/babylon.js"></script>
 <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>-->
 
-<!-- LIB: LOADER FOR BABYLON JS 
+      <!-- LIB: LOADER FOR BABYLON JS 
 <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>-->
 
-<!-- LIB: JQUERY PEP FOR BABYLON JS 
+      <!-- LIB: JQUERY PEP FOR BABYLON JS 
 <script src="https://code.jquery.com/pep/0.4.1/pep.js"></script>  -->
 
-<!-- JavaScript / JQuery --> 
-<script src="./content/script.js"></script>		<!--<script type="text/javascript" src="./lib/web4dv/CODEC.js"></script>-->
+      <!-- JavaScript / JQuery -->
+      <script src="./content/script.js"></script>
+      <!--<script type="text/javascript" src="./lib/web4dv/CODEC.js"></script>-->
 
-<style type="text/css" media="screen">
-    html {
-        -webkit-text-size-adjust: none;
-        touch-action: none;
-    }
-</style>
-<meta content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
-    </head>
-    
-    <body id="page-demoweb" class="page-4dv" data-new-gr-c-s-check-loaded="14.1031.0" data-gr-ext-installed="">
-		
-        <header class="bg-transparent scroll-transparent-dark">
-            <nav id="header-nav" class="fixed-top navbar navbar-expand-lg">
+      <style type="text/css" media="screen">
+         html {
+            -webkit-text-size-adjust: none;
+            touch-action: none;
+         }
+      </style>
+      <meta
+         content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+         name="viewport"
+      />
+   </head>
 
-	<a id="header-logo-link" href="https://risingstar.co" class="navbar-brand">
-        <div class="header-logo"></div>
-    </a>
+   <body
+      id="page-demoweb"
+      class="page-4dv"
+      data-new-gr-c-s-check-loaded="14.1031.0"
+      data-gr-ext-installed=""
+   >
+      <header class="bg-transparent scroll-transparent-dark">
+         <nav id="header-nav" class="fixed-top navbar navbar-expand-lg">
+            <a
+               id="header-logo-link"
+               href="https://risingstar.co"
+               class="navbar-brand"
+            >
+               <div class="header-logo"></div>
+            </a>
+         </nav>
+      </header>
 
-	
-	
-</nav>        </header>
-        
-        <div id="webgl-lowfps-advertisement" class="">
-            <div style="position: absolute;top: 50%;transform: translate(-50%, -50%);max-width: 620px;left: 50%;">
-                <h2 class="text-4dv-secondary" style="text-transform:uppercase;">Disclaimer</h2>
-                <p>The experience has been disactivated in reason of a low graphic performance detected.</p>
-            </div>
-        </div>
-        <section id="demopage-section-webgl" class="checkfps">
-            <div id="demo-orbit-controller" style="height:100%;outline:0px;text-align:center;min-height: 100vh;">
+      <div id="webgl-lowfps-advertisement" class="">
+         <div
+            style="
+               position: absolute;
+               top: 50%;
+               transform: translate(-50%, -50%);
+               max-width: 620px;
+               left: 50%;
+            "
+         >
+            <h2 class="text-4dv-secondary" style="text-transform: uppercase">
+               Disclaimer
+            </h2>
+            <p>
+               The experience has been disactivated in reason of a low graphic
+               performance detected.
+            </p>
+         </div>
+      </div>
+      <section id="demopage-section-webgl" class="checkfps">
+         <div
+            id="demo-orbit-controller"
+            style="
+               height: 100%;
+               outline: 0px;
+               text-align: center;
+               /* min-height: 100vh; */
+            "
+         >
+            <div id="web4dv-waiter-container"></div>
 
-                
+            <p
+               id="webplayer-button-container"
+               style="
+                  position: absolute;
+                  bottom: 160px;
+                  left: 50%;
+                  transform: translateX(-50%);
+               "
+            >
+               <button
+                  id="btn-webplayer-load"
+                  class="button4D large"
+                  style="z-index: 10; display: inline-block"
+               >
+                  PLAY
+               </button>
+               <button
+                  id="VRButton"
+                  class="button4D large vrnotavailable"
+                  style="
+                     display: none;
+                     cursor: pointer;
+                     left: calc(50% - 160px);
+                     width: 150px;
+                     font-size: 20px;
+                  "
+               >
+                  VR NOT SUPPORTED</button
+               ><button
+                  id="ARButton"
+                  class="button4D large arnotavailable"
+                  style="
+                     display: none;
+                     cursor: pointer;
+                     left: calc(50% + 10px);
+                     width: 150px;
+                     font-size: 20px;
+                  "
+               >
+                  AR NOT SUPPORTED
+               </button>
+            </p>
 
-                <div id="web4dv-waiter-container"></div>
+            <canvas
+               id="demo-canvas-4D"
+               style="width: 100%; height: 100%; z-index: 1; aspect-ratio: auto"
+               data-iframe-height
+               data-iframe-width
+            ></canvas>
+         </div>
 
-                <p id="webplayer-button-container" style="    position: absolute;bottom: 160px;left: 50%;transform: translateX(-50%);">
-                    <button id="btn-webplayer-load" class="button4D large" style="z-index: 10; display: inline-block;">PLAY</button>
-                <button id="VRButton" class="button4D large vrnotavailable" style="display: none; cursor: pointer; left: calc(50% - 160px); width: 150px; font-size: 20px;">VR NOT SUPPORTED</button><button id="ARButton" class="button4D large arnotavailable" style="display: none; cursor: pointer; left: calc(50% + 10px); width: 150px; font-size: 20px;">AR NOT SUPPORTED</button></p>
-
-            <canvas id="demo-canvas-4D" width="2880" height="1678" style="width: 1440px; height: 839px; z-index: 1;"></canvas></div>
-        
-            <!-- <div id="hologalleryMenu">
+         <!-- <div id="hologalleryMenu">
                 <button id="hologalleryMenu-toggler">
                     <div class="hologalleryMenu-togglerBar"></div>
                     <div class="hologalleryMenu-togglerBar"></div>
@@ -104,67 +187,126 @@
 
                 </ul>
             </div>-->
-             
+      </section>
 
-        </section>
-		
-		<footer class="footer-xs">
-			<div id="hologalleryControllers" class="">
-                <div id="hologalleryControllersWrapper">
-                    <ul class="">
-                        <li class="hologalleryBtn">
-                            <div id="btn-webplayer-playPause" class="btn btn-img hologalleryBtn-playPauseBtn playing"></div>
-                        </li>
-                        <li class="hologalleryBtn">
-                            <div id="btn-webplayer-stop" class="btn btn-img hologalleryBtn-stop"></div>
-                        </li>
-                        <li class="hologalleryBtn">
-                            <div id="btn-webplayer-audio" class="btn btn-img hologalleryBtn-audioOnOffBtn"></div>
-                        </li>
-                      
-                    
-                        
-    <!--
+      <footer class="footer-xs">
+         <div id="hologalleryControllers" class="">
+            <div id="hologalleryControllersWrapper">
+               <ul class="">
+                  <li class="hologalleryBtn">
+                     <div
+                        id="btn-webplayer-playPause"
+                        class="btn btn-img hologalleryBtn-playPauseBtn playing"
+                     ></div>
+                  </li>
+                  <li class="hologalleryBtn">
+                     <div
+                        id="btn-webplayer-stop"
+                        class="btn btn-img hologalleryBtn-stop"
+                     ></div>
+                  </li>
+                  <li class="hologalleryBtn">
+                     <div
+                        id="btn-webplayer-audio"
+                        class="btn btn-img hologalleryBtn-audioOnOffBtn"
+                     ></div>
+                  </li>
+
+                  <!--
                         <li style="float:right;" class="hologalleryBtn">
                             <div id="btn-webplayer-pin" class="btn btn-img hologalleryBtn-pinBtn"></div>
                         </li>
     -->
-                    </ul>
-                </div>
+               </ul>
             </div>
+         </div>
 
-            <div id="web4dv-stats" style="display: none; position: fixed; bottom: 120px; left: 32px; background-color: rgba(0,0,0,0.5); color: #f0f0f0; width: 320px; height: 320px; border: 1px solid #333; border-radius: 12px;padding: 16px;">
-                <h1 style="color: #ea3a87; font-size: 32px; font-weight: bold;">WEB4DV Stats:</h1>
-                <br>
-                <ul style="list-style-type:none;padding: 0px; font-size: 16px; font-weight: 300;line-height: 2em;">
-                    <li>Frame Playing: <span id="web4dv-fnow" style="color:#FFF500;"></span></li>
-                    <li>Frame Number: <span id="web4dv-fnum" style="color:#FFF500;">1</span></li>
-                    <li>Framerate: <span id="web4dv-fps" style="color:#FFF500;"></span></li>
-                    <li>Texture Size: <span id="web4dv-txsize" style="color:#FFF500;">undefinedp</span></li>
-    <!--				<li>Cache Option: <span id="web4dv-cache-opt" style="color:#03e7ae;"></span></li>-->
-                    <li>Max Frame Cache: <span id="web4dv-cache-max" style="color:#03e7ae;">undefined</span></li>
-                    <li>Live Frame Cache: <span id="web4dv-cache-now" style="color:#03e7ae;">20</span></li>
-                    <li>Last Decoded Frame: <span id="web4dv-decoded-last" style="color:#03e7ae;">0</span></li>
-                </ul>
-            </div>
+         <div
+            id="web4dv-stats"
+            style="
+               display: none;
+               position: fixed;
+               bottom: 120px;
+               left: 32px;
+               background-color: rgba(0, 0, 0, 0.5);
+               color: #f0f0f0;
+               width: 320px;
+               height: 320px;
+               border: 1px solid #333;
+               border-radius: 12px;
+               padding: 16px;
+            "
+         >
+            <h1 style="color: #ea3a87; font-size: 32px; font-weight: bold">
+               WEB4DV Stats:
+            </h1>
+            <br />
+            <ul
+               style="
+                  list-style-type: none;
+                  padding: 0px;
+                  font-size: 16px;
+                  font-weight: 300;
+                  line-height: 2em;
+               "
+            >
+               <li>
+                  Frame Playing:
+                  <span id="web4dv-fnow" style="color: #fff500"></span>
+               </li>
+               <li>
+                  Frame Number:
+                  <span id="web4dv-fnum" style="color: #fff500">1</span>
+               </li>
+               <li>
+                  Framerate:
+                  <span id="web4dv-fps" style="color: #fff500"></span>
+               </li>
+               <li>
+                  Texture Size:
+                  <span id="web4dv-txsize" style="color: #fff500"
+                     >undefinedp</span
+                  >
+               </li>
+               <!--				<li>Cache Option: <span id="web4dv-cache-opt" style="color:#03e7ae;"></span></li>-->
+               <li>
+                  Max Frame Cache:
+                  <span id="web4dv-cache-max" style="color: #03e7ae"
+                     >undefined</span
+                  >
+               </li>
+               <li>
+                  Live Frame Cache:
+                  <span id="web4dv-cache-now" style="color: #03e7ae">20</span>
+               </li>
+               <li>
+                  Last Decoded Frame:
+                  <span id="web4dv-decoded-last" style="color: #03e7ae">0</span>
+               </li>
+            </ul>
+         </div>
 
-    <!--		<canvas id="timeline4D" class="timeline"></canvas>-->
-            <div id="elem-webplayer-timeline" style="">
-                <div id="elem-webplayer-timeline-fill" style="width: 100%;">
-                </div>
+         <!--		<canvas id="timeline4D" class="timeline"></canvas>-->
+         <div id="elem-webplayer-timeline" style="">
+            <div id="elem-webplayer-timeline-fill" style="width: 100%"></div>
+         </div>
+      </footer>
+
+      <div id="overlay">
+         <div class="info-area">
+            <img
+               id="scanimg"
+               src="./img/arscan.png"
+               alt="Scan Ground"
+               width="250"
+            />
+            <div id="info" style="color: white">
+               Move your device to scan surfaces
             </div>
-		  
-		</footer>
-        
-         <div id="overlay">
-            <div class="info-area">
-                
-                <img id="scanimg" src="./img/arscan.png"  alt="Scan Ground" width="250"> 
-                <div id="info" style="color: white;">Move your device to scan surfaces</div>
-                    <!-- <button id="xr-button" disabled>XR not found</button> -->
-            </div>
-        </div>    
-        <!-- JavaScript / JQuery script --> 
-        <script type="module" src="./content/webplayer-demo.js"></script>
-            
-</body></html>
+            <!-- <button id="xr-button" disabled>XR not found</button> -->
+         </div>
+      </div>
+      <!-- JavaScript / JQuery script -->
+      <script type="module" src="./content/webplayer-demo.js"></script>
+   </body>
+</html>
